@@ -2,12 +2,12 @@ project:
   type: manuscript
   output-dir: _build
   render: 
-    - template.qmd
+    - article.qmd
     - notebooks/*.qmd
     - notebooks/*.ipynb
 
 manuscript:
-  article: template.qmd
+  article: article.qmd
   # resources:
   #   - data/catalogoComunSV_1663233588717.csv
   #   - data/lapalma_ign.csv
@@ -19,25 +19,6 @@ manuscript:
 
 execute:
   freeze: auto
-
-
-format:
-  lumo-html: 
-    comments:
-      hypothesis: true   
-    number-sections: true
-    citations-hover: true
-    crossrefs-hover: true
-    toc-location: right
-    title-block-style: manuscript
-                                    # comment side bar on the right
-    logo: "images/logo.png"                                
-    github-repo: "https://github.com/ntluong95/xxx"        
-    primary-color: "#69b3a2"
-    self-contained: true
-    is-particlejs-enabled: true                          # Optional: display interactive particles in the document header
-    bg-image: ""                                         # Optional: link to an image for the header background
-
   # agu-pdf: 
   #   notebook-links: inline
   # docx: default

@@ -67,7 +67,7 @@ target/
 .idea
 
 # VS Code
-.vscode/
+# .vscode/
 *.code-workspace
 
 # Spyder
@@ -87,10 +87,16 @@ target/
 .mypy_cache/
 
 # Exclude virtual environment
-.venv/
+/.venv/
+/renv/
 
 # Exclude trained models
-/models/
+# /models/
 
 # exclude data from source control by default
-# /data/
+/data/
+
+# quarto
+/.quarto/
+# MyST build outputs
+_build

@@ -1,0 +1,5 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": ["kv9898.positron-r-package-manager", "charliermarsh.ruff"]
+}
